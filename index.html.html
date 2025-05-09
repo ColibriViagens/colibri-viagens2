@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colibri Viagens</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background: #ff7f00;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      color: #fff;
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin: 0 0 1rem 0;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #ff7f00;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .services li::before {
+      content: '🚌';
+      margin-right: 0.5rem;
+    }
+    .testimonial {
+      border: 1px solid #ddd;
+      border-left: 4px solid #ff7f00;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .cta {
+      text-align: center;
+      padding: 2rem;
+    }
+    .cta a {
+      background: #ff7f00;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    footer a {
+      color: #ffcc33;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 5px #999;
+      z-index: 100;
+    }
+    .whatsapp-float i {
+      line-height: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Colibri Viagens</h1>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Viaje com conforto e segurança</h2>
+    <p>Colibri Viagens — experiências incríveis por todo o Brasil</p>
+  </section>
+
+  <section class="section services" id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Viagens de turismo</li>
+      <li>Passeios pedagógicos</li>
+      <li>Viagens corporativas</li>
+      <li>Romarias</li>
+      <li>Viagens de grupos em geral</li>
+    </ul>
+  </section>
+
+  <section class="section" id="depoimentos">
+    <h2>Depoimentos</h2>
+    <div class="testimonial">
+      <strong>Isabel Lima – Natal/RN</strong>
+      <p>"Recomendo, é uma empresa com ótimos profissionais, super responsável e carros muito bons."</p>
+    </div>
+    <div class="testimonial">
+      <strong>CRICIÚMA E.C – Natal/RN</strong>
+      <p>"Viagem tranquila, motoristas profissionais e ônibus super confortável. A equipe agradece!"</p>
+    </div>
+    <div class="testimonial">
+      <strong>Paula Martinez – Natal/RN</strong>
+      <p>"Ônibus confortável, limpo e atendimento perfeito. Jefferson e Beto são excepcionais!"</p>
+    </div>
+  </section>
+
+  <section class="cta" id="contato">
+    <a href="https://wa.me/5584988299179" target="_blank">Solicite um orçamento pelo WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>Colibri Viagens © 2025 — Viaje com quem entende de conforto e confiança.</p>
+    <p>
+      <a href="https://instagram.com/colibri.viagens" target="_blank">Instagram</a>
+    </p>
+  </footer>
+
+  <a href="https://wa.me/5584988299179" class="whatsapp-float" target="_blank">
+    <i>📱</i>
+  </a>
+</body>
+</html>
